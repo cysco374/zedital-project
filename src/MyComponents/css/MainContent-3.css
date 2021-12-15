@@ -1,0 +1,51 @@
+.mainContent3 {
+  margin-top: -290px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.u-heading {
+  color: #ff725e;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px;
+}
+.Heading {
+  font-size: 80px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 3.5rem;
+}
+@media (min-width: 843px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1257px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 803px) {
+  .u-heading {
+    font-size: 30px;
+  }
+  .Heading {
+    font-size: 60px;
+  }
+}
+@media (max-width: 622px) {
+  .u-heading {
+    font-size: 20px;
+  }
+  .Heading {
+    font-size: 30px;
+  }
+}

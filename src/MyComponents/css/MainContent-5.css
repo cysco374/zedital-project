@@ -1,0 +1,105 @@
+.mainContent5 {
+  text-align: center;
+  padding-top: 30px;
+}
+.heading5 {
+  margin-bottom: 50px;
+}
+.heading5 h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.underline5 {
+  width: 250px;
+  height: 8px;
+  background-color: #ff725e;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+}
+
+.para5-1 {
+  line-height: 1.5;
+  font-size: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: 600;
+  color: rgb(133, 133, 133);
+}
+.para5-2 {
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: rgb(133, 133, 133);
+}
+
+.second-item {
+  text-align: left !important;
+}
+
+.flex-item-5 {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0px !important;
+}
+
+.list5 {
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 30px;
+  padding-left: 0px;
+}
+.list5 li {
+  font-weight: 600;
+  line-height: 2;
+}
+.tick {
+  color: #ff725e;
+  font-size: 35px !important;
+}
+
+@media (max-width: 803px) {
+  .heading5 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .handicapped_guy {
+    width: 100% !important;
+  }
+}
+@media (max-width: 622px) {
+  .heading5 h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .underline5 {
+    width: 180px;
+
+    background-color: #ff725e;
+  }
+  .handicapped_guy {
+    width: 100% !important;
+  }
+  .para5-1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+  }
+  .flex-item-5 {
+    padding: 25px;
+  }
+  .second-item h1 {
+    text-align: center !important;
+  }
+  .para5-2 {
+    text-align: center !important;
+    font-size: 20px;
+  }
+  .list5 {
+    font-size: 18px;
+  }
+  .tick {
+    font-size: 20px !important;
+  }
+}

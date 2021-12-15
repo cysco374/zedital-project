@@ -1,0 +1,124 @@
+.mainContent4 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.main-heading-4 {
+  margin-bottom: 40px;
+}
+.flex4 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.flex-child-element4:first-child {
+  padding: 10px 0 0 60px;
+  flex: 25%;
+}
+
+.flex-child-element4:last-child {
+  padding: 60px 0;
+  flex: 70%;
+}
+
+.u-heading {
+  color: #ff725e;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.Heading {
+  font-size: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.black-back {
+  background-image: linear-gradient(to right, #353535, #141414);
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 85%;
+  border-radius: 30px;
+}
+
+.col1 {
+  text-align: left;
+  float: left;
+}
+
+.col1 h2 {
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.col1 p {
+  color: grey;
+  line-height: 1.8;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.col1 button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: #ff725e;
+  font-weight: 300;
+  font-size: large;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.rec.rec-arrow {
+  visibility: hidden;
+}
+.rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec {
+  box-shadow: none;
+  background: rgb(165, 165, 165);
+  border: 10px solid rgb(165, 165, 165);
+  font-size: larger;
+}
+
+.rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec.rec-dot_active {
+  background: #ff725e;
+  border: 10px solid #ff725e;
+}
+@media (max-width: 1480px) {
+  .flex4 {
+    flex-direction: column;
+  }
+  .flex-child-element4:first-child {
+    padding: 10px 60px 0 60px;
+    flex: 25%;
+  }
+}
+
+@media (max-width: 622px) {
+  .rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec {
+    border: 7px solid rgb(165, 165, 165);
+  }
+  .rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec.rec-dot_active {
+    border: 7px solid #ff725e;
+  }
+  .u-heading {
+    font-size: 30px !important;
+  }
+  .Heading {
+    font-size: 40px !important;
+  }
+  .flex-child-element4:first-child {
+    padding: 10px 30px 0 30px;
+  }
+
+  .black-back {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    border-radius: 0;
+  }
+}

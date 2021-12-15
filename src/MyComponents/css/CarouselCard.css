@@ -1,0 +1,68 @@
+.carouselCard{
+    width: 100%;
+    
+}
+.whiteCard{
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 260px;
+    margin-top: 55px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.cimage{
+    width: 90px;
+    height: 90px;
+    background-color: grey;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-60%);
+}
+.cimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    
+    object-fit: cover;
+}
+.content{
+    transform: translateY(-30%);
+    padding: 0 20px;
+    height: 200px !important;
+}
+.content p{
+    font-size: 12px;
+    
+    
+}
+.content h3{
+    margin-bottom: 10px;
+}
+
+@media(max-width:375px){
+    .whiteCard{
+        width: 200px;
+        height: 230px;
+    }
+    .content{
+        transform: translateY(-25%);
+        padding: 10px 15px;
+        
+    }
+    .content p{
+        font-size: 10px;
+        
+    }
+    .content h3{
+        font-size: 18px;
+    }
+    .cimage{
+        width: 80px;
+        height: 80px;
+        
+    }
+    
+}

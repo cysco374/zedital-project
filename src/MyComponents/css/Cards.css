@@ -1,0 +1,28 @@
+.Cards {
+  display: table-cell;
+  padding: 40px;
+  min-width: 200px;
+  min-height: 250px;
+  text-align: left;
+  border: 6px solid rgb(153, 153, 153);
+}
+.Cards p {
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 600;
+  color: grey;
+}
+
+.Cards h2 {
+  margin-top: -30px;
+}
+.image {
+  border-left: 6px solid #ff725e;
+  border-top: 6px solid #ff725e;
+  width: 64px;
+  height: 82px;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-bottom: 0px;
+  transform: translate(-46%, -38.8%);
+}
