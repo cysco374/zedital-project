@@ -27,7 +27,8 @@ nav {
   font-weight: bold;
   color: black;
   padding: 0 100px;
-  line-height: 80px;
+  width: 90px !important;
+ 
 }
 
 nav ul {
@@ -71,7 +72,8 @@ nav #nav-icon {
 @media (max-width: 1095px) {
   .logo {
     font-size: 32px;
-    padding-left: 60px;
+    padding-left:40px;
+    width: 70px;
   }
 }
 
@@ -127,6 +129,6 @@ nav #nav-icon {
 @media (max-width: 390px) {
   .logo {
     font-size: 28px;
-    padding-left: 50px;
+    padding-left: 20px;
   }
 }

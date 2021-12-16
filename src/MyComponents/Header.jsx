@@ -2,11 +2,12 @@ import React from "react";
 import "./css/Header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaArrowLeft } from "react-icons/fa";
+import logo from './images/logo.png';
 import $ from "jquery";
 function Header() {
   return (
     <nav id="header">
-      <label className="logo">ZEDITAL</label>
+      <label ><img className="logo" src={logo} alt="" /></label>
       <ul className="list1">
       <label id="arrow-left" >
         <FaArrowLeft />

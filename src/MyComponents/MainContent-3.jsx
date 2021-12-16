@@ -3,6 +3,13 @@ import Cards from "./Cards.jsx";
 import "./css/MainContent-3.css";
 import phone from "./images/phone.jpg";
 import computer from "./images/computer.jpg";
+import seo from "./images/seo.jpg";
+import smm from "./images/smm.jpg";
+import fb from "./images/fb.jpg";
+import email from "./images/email.jpg";
+import branding from "./images/branding.jpg";
+import startup from "./images/startup.jpg";
+import pr from "./images/pr.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function MainContent3() {
@@ -32,7 +39,7 @@ function MainContent3() {
           Visit Your Website"
         />
         <Cards
-          image={phone}
+          image={seo}
           heading="Search Engine Optimization"
           text=" We help you improve your Google ranking and increase
           your organic (non-paid) website traffic. SEO is more
@@ -40,21 +47,21 @@ function MainContent3() {
           optimize all elements."
         />
         <Cards
-          image={phone}
+          image={smm}
           heading="Social Media Marketing"
           text="We Help you with social media management and
           advertising to help you grow your business and
           reach new clients."
         />
         <Cards
-          image={phone}
+          image={fb}
           heading="FB & Google Ad"
           text="We provide best Facebook and Google advertise
           services in affordable and best price with trending
           advertising ideas"
         />
         <Cards
-          image={phone}
+          image={email}
           heading="E-mail Marketing"
           text="The writing and editing experience of email marketing
           can be a sticky point for many creators. Our email
@@ -63,7 +70,7 @@ function MainContent3() {
           part of email."
         />
         <Cards
-          image={phone}
+          image={branding}
           heading="Branding"
           text="By building a website that describes what you offer,
           designing ads that promote your goods and services,
@@ -73,7 +80,7 @@ function MainContent3() {
           are branding your company."
         />
         <Cards
-          image={phone}
+          image={startup}
           heading="Startup / Small Business Profile Management"
           text="A management profile is a description of the capabilities
           (skills and behaviors) and attitudes that an organization's
@@ -81,7 +88,7 @@ function MainContent3() {
           their team."
         />
         <Cards
-          image={phone}
+          image={pr}
           heading="PR & Verification"
           text="A Verification of status (vos) request is a request for
           proof of legal status or proof of entry into Canada. You

@@ -9,16 +9,16 @@ function Starter() {
   }, []);
   return (
     <div className="Heading">
-      <p data-aos="fade-right" data-aos-once="true" className="mainHeading">
+      <p data-aos="zoom-in-up" data-aos-once="true" className="mainHeading">
         ZEDITAL MARKETING AGENCY
       </p>
-      <p data-aos="fade-left" data-aos-once="true" className="Quote">
+      <p data-aos="zoom-in-down" data-aos-once="true" className="Quote">
         Advertise, analyze and optimize! We do it all for you
       </p>
       <div className="flex-btn">
-        <a data-aos="fade-right" data-aos-once="true" className="flex-btn-child" href="#services">What we do?</a>
+        <a data-aos="fade-down" data-aos-once="true" className="flex-btn-child" href="#services">What we do?</a>
         <p data-aos="zoom-in" data-aos-once="true" className="flex-btn-child">Or</p>
-        <a data-aos="fade-left" data-aos-once="true" className="flex-btn-child" target="_blank" rel="noreferrer" href="https://wa.me/message/IQKHO7Q5FO4HO1">Send Notification</a>
+        <a data-aos="fade-down" data-aos-once="true" className="flex-btn-child" target="_blank" rel="noreferrer" href="https://wa.me/message/IQKHO7Q5FO4HO1">Send Notification</a>
       </div>
       <img
         className="starter-img"

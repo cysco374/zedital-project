@@ -2,13 +2,39 @@ import { React, useEffect } from "react";
 import "./css/MainContent-6.css";
 import { MdLocationPin, MdMail, MdPhone } from "react-icons/md";
 import AOS from "aos";
-import "aos/dist/aos.css";
+import "aos/dist/aos.css"; 
+import emailjs from 'emailjs-com';
+import { AlertContainer, alert } from 'react-custom-alert';
+import 'react-custom-alert/dist/index.css';
+
 function MainContent6() {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
+
+
+  const alertSuccess = () => alert({ message: 'Your message sent successfully!', type: 'success' });
+  
+  const alertError = () => alert({ message: 'Something went wrong try again!', type: 'error' });
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('gmail', 'template_hujp9ji', e.target, 'user_A8Rxeh2BKndfFPuqCDnUe')
+      .then((result) => {
+        alertSuccess();
+        console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+          alertError();
+      });
+      e.target.reset();
+  }; 
+ 
+
   return (
     <div id="contactus" className="mainContent6">
+       <AlertContainer floatingTime={4500}/>
+       
       <div className="heading5">
         <h1 data-aos="fade-right" data-aos-once="true">
           Contact Us
@@ -22,7 +48,7 @@ function MainContent6() {
       <p data-aos="fade-up" data-aos-once="true" className="para6-1">
         Fill out the form below and one of our advisor's will get in touch
         promptly, alternatively you can email us at{" "}
-        <a href="mailto:">info@zedital.com</a>
+        <a href="mailto:zeditalmarketingagency@gmail.com">zedital@gmail.com</a>
       </p>
 
       <div
@@ -58,7 +84,7 @@ function MainContent6() {
             </div>
             <div className="child1">
               <p>Mobile number</p>
-              <p>+91 85274 19334</p>
+              <a href="tel:+918527419334">+91 8527419334</a>
             </div>
           </div>
           <div className="parent6">
@@ -69,7 +95,7 @@ function MainContent6() {
             </div>
             <div className="child1">
               <p>E-Mail</p>
-              <p>info@zedital.com</p>
+              <a href="mailto:zeditalmarketingagency@gmail.com">zedital@gmail.com</a>
             </div>
           </div>
         </div>
@@ -84,19 +110,19 @@ function MainContent6() {
         >
           <div className="form-content">
             <h2>Send Message</h2>
-            <form method="post">
+            <form onSubmit={sendEmail}>
               <div className="txt-field">
-                <input type="text" required />
+                <input type="text" name="name" required />
                 <span></span>
                 <label>Full name</label>
               </div>
               <div className="txt-field">
-                <input type="email" required />
+                <input type="email" name="email" required />
                 <span></span>
                 <label>E-Mail</label>
               </div>
               <div className="txt-field">
-                <input type="text" required />
+                <input type="text" name="message" required />
                 <span></span>
                 <label>Type your message</label>
               </div>

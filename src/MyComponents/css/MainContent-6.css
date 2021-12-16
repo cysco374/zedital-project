@@ -3,6 +3,26 @@
   margin-bottom: 60px;
 }
 
+.--react--toast-alert {
+  display: grid;
+  grid-template-columns: 30px auto;
+  align-items: center;
+  background-color: white !important;
+  animation: fadeInExpand 150ms;
+  margin: 15px 0 0 0;
+  padding: 16px 15px;
+  border-radius: 12px;
+  font-size: 15px;
+  box-shadow: none !important;
+  border: 2px solid grey ;
+}
+
+.--react--toast-alert p {
+  
+  color: black !important;
+}
+
+
 .flex6 {
   display: flex;
   flex-direction: row;
@@ -99,6 +119,11 @@
 }
 .child1 p:last-child {
   margin-top: 0px;
+  color: white;
+}
+
+.child1 a{
+  text-decoration: none;
   color: white;
 }
 
@@ -232,3 +257,5 @@ input[type="submit"]:hover {
     
   }
 }
+
+
