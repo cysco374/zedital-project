@@ -11,17 +11,11 @@
   animation: fadeInExpand 150ms;
   margin: 15px 0 0 0;
   padding: 16px 15px;
-  border-radius: 12px;
+  border-radius: 10px;
+  border: 2px solid grey !important;
   font-size: 15px;
-  box-shadow: none !important;
-  border: 2px solid grey ;
+  box-shadow: none;
 }
-
-.--react--toast-alert p {
-  
-  color: black !important;
-}
-
 
 .flex6 {
   display: flex;

@@ -5,11 +5,24 @@ import "aos/dist/aos.css";
 import { MdFacebook } from "react-icons/md";
 import { BsInstagram, BsLinkedin } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import { alert } from 'react-custom-alert';
+import 'react-custom-alert/dist/index.css';
+
 function Footer() {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
+  
+  const alertSuccess = () => alert({ message: 'Thank you for subscribing!', type: 'success' });
+  
 
+
+  const subscribe = (e) => {
+    e.preventDefault();
+    alertSuccess();
+    e.target.reset();
+  }; 
+ 
   let newDate = new Date();
   let year = newDate.getFullYear();
   return (
@@ -65,7 +78,7 @@ function Footer() {
         <div className="flex-child-3">
           <div className="c3-sec-1">
             <p className="footer-headings">subscribe us</p>
-            <form action="" method="post">
+            <form onSubmit={subscribe}>
               <input
                 type="email"
                 name="email"

@@ -20,7 +20,7 @@ function MainContent3() {
     <div id="services" className="mainContent3">
       <div data-aos="fade-up" data-aos-once="true">
         <p className="u-heading">Our services</p>
-        <h1 className="Heading">What do you need?</h1>
+        <h1 className="Heading-3">What do you need?</h1>
       </div>
       <div className="cards">
         <Cards

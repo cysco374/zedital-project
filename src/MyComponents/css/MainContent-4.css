@@ -30,13 +30,14 @@
   padding-left: 30px;
   padding-right: 30px;
 }
-.Heading {
+.Heading-4 {
+  margin: 0;
   font-size: 80px;
   padding-left: 30px;
   padding-right: 30px;
 }
 .black-back {
-  background-image: linear-gradient(to right, #353535, #141414);
+  background: linear-gradient(90deg, rgb(54, 54, 54),black);
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -63,7 +64,7 @@
   font-weight: 400;
 }
 
-.col1 button {
+.col1 a {
   text-decoration: none;
   background: none;
   border: none;
@@ -108,7 +109,7 @@
   .u-heading {
     font-size: 30px !important;
   }
-  .Heading {
+  .Heading-4 {
     font-size: 40px !important;
   }
   .flex-child-element4:first-child {

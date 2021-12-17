@@ -1,7 +1,8 @@
 .Heading {
   text-align: center;
   padding-top: 10px;
-  margin: 0;
+  margin-bottom: 0px !important;
+
 }
 .starter-img {
   margin-top: 50px;
@@ -25,7 +26,6 @@
 
 .flex-btn > p {
   margin: 0 20px;
-  
   background-color: #c4c4c4;
   padding: 10px 12px;
   border-radius: 100%;
@@ -59,13 +59,6 @@
     width: 100%;
   }
 }
-
-@media (max-width: 1012px) {
-  .starter-img {
-    width: 800px;
-  }
-}
-
 @media (max-width: 819px) {
   .starter-img {
     width: 100%;

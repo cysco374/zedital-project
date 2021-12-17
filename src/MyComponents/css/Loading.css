@@ -1,5 +1,5 @@
 .Loading {
-  background-image: linear-gradient(to right, #353535, #141414);
+  background: linear-gradient(90deg, rgb(54, 54, 54),black);
   position: fixed;
   z-index: 9999;
   height: 100vh;

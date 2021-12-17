@@ -1,5 +1,5 @@
 .mainContent1 {
-  background-image: linear-gradient(to right, #353535, #141414);
+  background: linear-gradient(90deg, rgb(54, 54, 54),black);
 }
 .flex {
   display: flex;

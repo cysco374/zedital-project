@@ -5,7 +5,13 @@
   min-height: 250px;
   text-align: left;
   border: 6px solid rgb(153, 153, 153);
+  
 }
+
+.Cards:hover{
+  box-shadow: 3px 3px 25px #858585;
+}
+
 .Cards p {
   font-size: 13px;
   line-height: 1.6;

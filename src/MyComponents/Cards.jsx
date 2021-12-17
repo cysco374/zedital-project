@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 function Cards({ image, heading, text }) {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 1500});
   }, []);
   return (
     <div data-aos="zoom-in-up" data-aos-once="true" className="Cards">

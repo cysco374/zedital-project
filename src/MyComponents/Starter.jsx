@@ -12,7 +12,7 @@ function Starter() {
       <p data-aos="zoom-in-up" data-aos-once="true" className="mainHeading">
         ZEDITAL MARKETING AGENCY
       </p>
-      <p data-aos="zoom-in-down" data-aos-once="true" className="Quote">
+      <p data-aos="zoom-out-down" data-aos-once="true" className="Quote">
         Advertise, analyze and optimize! We do it all for you
       </p>
       <div className="flex-btn">
