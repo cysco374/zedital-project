@@ -5,14 +5,14 @@ import Carousel from "react-elastic-carousel";
 import CarouselCard from "./CarouselCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import test1 from './images/test1.jpg'
-import test2 from './images/test2.jpg'
-import test3 from './images/test3.jpg'
-import test4 from './images/test4.jpg'
-import test5 from './images/test5.jpg'
-import test6 from './images/test6.jpg'
-import test7 from './images/test7.jpg'
-import test8 from './images/test8.jpg'
+import test1 from './images/test1.jpeg'
+import test2 from './images/test2.jpeg'
+import test3 from './images/test3.jpeg'
+import test4 from './images/test4.jpeg'
+import test5 from './images/test5.jpeg'
+import test6 from './images/test6.jpeg'
+import test7 from './images/test7.jpeg'
+import test8 from './images/test8.jpeg'
 
 function MainContent4() {
   useEffect(() => {
