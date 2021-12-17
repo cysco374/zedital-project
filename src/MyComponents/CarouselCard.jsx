@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/CarouselCard.css";
 
-function CarouselCard({image,name,content}) {
+function CarouselCard({image,name,star,content}) {
   return (
     <div className="carouselCard">
       <div className="whiteCard">
@@ -10,6 +10,7 @@ function CarouselCard({image,name,content}) {
         </div>
         <div className="content">
           <h3>{name}</h3>
+          {star}
           <p>{content}</p>
         </div>
       </div>

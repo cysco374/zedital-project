@@ -34,14 +34,14 @@ function MainContent3() {
           image={computer}
           heading="Website Development"
           text="Zedital services is one of the premier web development companies in India that providos Web Developmont
-          services. We Serves You with Attractive ona
-          Eye- Catching web design which Attracts Customer to
-          Visit Your Website"
+          services. We serve you with attractive and 
+          eye catching web design which attracts customer to
+          visit your website"
         />
         <Cards
           image={seo}
           heading="Search Engine Optimization"
-          text=" We help you improve your Google ranking and increase
+          text=" We help you to improve your Google ranking and increase
           your organic (non-paid) website traffic. SEO is more
           than just incorporating keywords and we can help to
           optimize all elements."
@@ -49,16 +49,16 @@ function MainContent3() {
         <Cards
           image={smm}
           heading="Social Media Marketing"
-          text="We Help you with social media management and
+          text="We help you with social media management and
           advertising to help you grow your business and
           reach new clients."
         />
         <Cards
           image={fb}
           heading="FB & Google Ad"
-          text="We provide best Facebook and Google advertise
-          services in affordable and best price with trending
-          advertising ideas"
+          text="We provide best Facebook and Google advertisement
+          services in affordable and best price with trendy
+          advertising concepts & ideas"
         />
         <Cards
           image={email}
@@ -66,7 +66,7 @@ function MainContent3() {
           text="The writing and editing experience of email marketing
           can be a sticky point for many creators. Our email
           designer helps you breeze through the editing so you
-          can focus on writing your content - the most important
+          can focus on writing your content, the most important
           part of email."
         />
         <Cards
@@ -76,24 +76,21 @@ function MainContent3() {
           designing ads that promote your goods and services,
           selecting specific corporate colors that will be
           associated with your company, creating a logo, and
-          featuring it acrobs all your social media accounts, you
+          featuring it across all your social media accounts, you
           are branding your company."
         />
         <Cards
           image={startup}
           heading="Startup / Small Business Profile Management"
           text="A management profile is a description of the capabilities
-          (skills and behaviors) and attitudes that an organization's
-          managers require to drive the business strategy and lead
+          (skills and behaviours) and attitudes that an organization's
+          manager require to drive the business strategy and lead
           their team."
         />
         <Cards
           image={pr}
           heading="PR & Verification"
-          text="A Verification of status (vos) request is a request for
-          proof of legal status or proof of entry into Canada. You
-          may need to file a VOS request when you are traveling,
-          for a pension, or for other reasons."
+          text="We produce story copyrights, content and scripts for Digital PR , communication and distribution strategy for reach and business outcomes through engaging with a network of online professional bloggers, online story tellers, online editors and publication platforms. And then you will receive a blue tick (verification) on your social profiles."
         />
       </div>
     </div>

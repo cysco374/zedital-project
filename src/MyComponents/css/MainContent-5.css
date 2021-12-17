@@ -10,6 +10,16 @@
   margin-bottom: 10px;
 }
 
+.para5-1>h1{
+  color: black;
+  font-size: 30px;
+}
+
+.tick-1{
+  color: #ff725e;
+  transform: translateY(+5px);
+}
+
 .underline5 {
   width: 250px;
   height: 8px;
@@ -57,6 +67,7 @@
 .tick {
   color: #ff725e;
   font-size: 35px !important;
+  transform: translateY(+5px);
 }
 
 @media (max-width: 803px) {

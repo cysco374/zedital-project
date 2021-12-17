@@ -20,7 +20,7 @@ const MainContent1 = () => {
           className="flex-child-element"
         >
           <p className="head">Let's connect</p>
-          <p className="head1">Getting You Connected To Your Audiance</p>
+          <p className="head1">Getting You Connected To Your Audience</p>
 
           <VisibilitySensor partialVisibility>
             {({ isVisible }) => (
@@ -56,11 +56,11 @@ const MainContent1 = () => {
               unwelcome Instantly.
             </p>
             <p data-aos="fade-up" data-aos-once="true" className="right-para">
-              We at marky are driven by technology and data as much as design
-              and content to ensure we fulfil our key mission of helping or
-              clientsachieve their success. Our digital solution uses data to
-              segment consumers by demographics or intrests in order to find the
-              holy grailthat is the right person on the right device at the
+              We at Zedital are driven by technology and data as much as design
+              and content to ensure we fulfill our key mission of helping our
+              clients to achieve their success. Our digital solution uses data to
+              segment consumers by demographics or interests in order to find the
+              holy grail that is the right person on the right device at the
               right moment.
             </p>
           </div>
