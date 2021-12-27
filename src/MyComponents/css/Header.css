@@ -12,6 +12,15 @@ nav a {
 html {
   scroll-behavior: smooth;
 }
+::selection {
+  background: #ff715ec7; 
+  color: aliceblue;
+}
+::-moz-selection {
+  background: #ff715ebe; 
+  color: aliceblue;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }

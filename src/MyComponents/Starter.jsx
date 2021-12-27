@@ -13,7 +13,7 @@ function Starter() {
         ZEDITAL MARKETING AGENCY
       </p>
       <p data-aos="zoom-out-down" data-aos-once="true" className="Quote">
-        Advertise, analyze and optimize! We do it all for you
+        Advertise, analyse and optimise! We do it all for you
       </p>
       <div className="flex-btn">
         <a data-aos="fade-down" data-aos-once="true" className="flex-btn-child" href="#services">What we do?</a>
