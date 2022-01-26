@@ -18,7 +18,7 @@ function Starter() {
       <div className="flex-btn">
         <a data-aos="fade-down" data-aos-once="true" className="flex-btn-child" href="#services">What we do?</a>
         <p data-aos="zoom-in" data-aos-once="true" className="flex-btn-child">Or</p>
-        <a data-aos="fade-down" data-aos-once="true" className="flex-btn-child" target="_blank" rel="noreferrer" href="https://wa.me/message/IQKHO7Q5FO4HO1">Send Notification</a>
+        <a data-aos="fade-down" data-aos-once="true" className="flex-btn-child send-notification" target="_blank" rel="noreferrer" href="https://wa.me/message/IQKHO7Q5FO4HO1">Send Notification</a>
       </div>
       <img
         className="starter-img"

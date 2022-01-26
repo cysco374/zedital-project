@@ -5,6 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: all 0.3s ease;
+}
+
+.move {
+  transform: translateX(37px);
+}
+
+#icon{
+  font-size: 14px;
+}
+
+.switcher {
+  width: 70px;
+  height: 30px;
+  border: 2px solid grey;
+  background: rgba(255, 255, 255, 0.781);
+  border-radius: 24px;
+  position: fixed;
+  bottom: 40px;
+    left: 40px;
+    text-align: center;
+    
+    z-index: 2;
+  display: flex;
+  align-items: center;
+}
+.switch {
+  position: absolute;
+  background-color: #ff725e;
+  border: 2px solid grey;
+  width: 20px;
+  height: 20px;
+  left: 4px;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    
+
+  .switcher {
+      
+      bottom: 15px;
+      left: 15px;
+  }
 }
 
 code {

@@ -14,6 +14,7 @@ function Footer() {
   }, []);
   
   const alertSuccess = () => alert({ message: 'Thank you for subscribing!', type: 'success' });
+
   
 
 
@@ -95,13 +96,13 @@ function Footer() {
             <a href="http://">
               <MdFacebook className="footer-icons" />
             </a>
-            <a href="http://">
+            <a href="https://instagram.com/zedital?utm_medium=copy_link" target="_blank" rel="noreferrer">
               <BsInstagram className="footer-icons" />
             </a>
             <a href="http://">
               <AiFillTwitterCircle className="footer-icons" />
             </a>
-            <a href="http://">
+            <a href="https://www.linkedin.com/company/zedital-marketing-agency/" target="_blank" rel="noreferrer">
               <BsLinkedin className="footer-icons" />
             </a>
           </div>
