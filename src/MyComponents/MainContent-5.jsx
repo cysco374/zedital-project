@@ -32,7 +32,7 @@ function MainContent5() {
         </h1>
         <p data-aos="fade-up" data-aos-once="true">
           For startups and growing businesses, our expert team at Zedital will
-          work with you every step of the way in your digital/ business growth
+          work with you every step of the way in your digital business growth
           journey.
         </p>
 

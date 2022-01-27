@@ -33,7 +33,7 @@ function MainContent3() {
         <Cards
           image={computer}
           heading="Website Development"
-          text="Zedital services is one of the premier web development companies in India that providos Web Developmont
+          text="Zedital services is one of the premier web development companies in India that provides Web Development
           services. We serve you with attractive and 
           eye catching web design which attracts customer to
           visit your website"
@@ -72,12 +72,7 @@ function MainContent3() {
         <Cards
           image={branding}
           heading="Branding"
-          text="By building a website that describes what you offer,
-          designing ads that promote your goods and services,
-          selecting specific corporate colors that will be
-          associated with your company, creating a logo, and
-          featuring it across all your social media accounts, you
-          are branding your company."
+          text="We are Branding Agency, a studio made up of passionate people who love finding thoughtful, engaging and timeless solutions to our clients’ problems. We deliver beautiful and effective projects from brand identities, packaging, and signage to exhibition graphics, websites, and Ui/Ux design for mobile application."
         />
         <Cards
           image={startup}
