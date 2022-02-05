@@ -52,7 +52,7 @@ function Footer() {
             <p className="footer-headings">Say Hello</p>
             <p>
               If you are interested in working with us or just want to say hello
-              simply drop us a line! <a href="mailto:zeditalmarketingagency@gmail.com">zeditalmarketingagency@gmail.com</a>
+              simply drop us a line! <a className="e-mail-responsive" href="mailto:zeditalmarketingagency@gmail.com">zeditalmarketingagency@gmail.com</a>
             </p>
           </div>
           <div className="c2-sec-2">

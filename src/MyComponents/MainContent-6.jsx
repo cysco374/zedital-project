@@ -48,7 +48,7 @@ function MainContent6() {
       <p data-aos="fade-up" data-aos-once="true" className="para6-1">
         Fill out the form below and one of our advisor's will get in touch
         promptly, alternatively you can email us at{" "}
-        <a href="mailto:zeditalmarketingagency@gmail.com">zeditalmarketingagency@gmail.com</a>
+        <a className="e-mail-responsive" href="mailto:zeditalmarketingagency@gmail.com">zeditalmarketingagency@gmail.com</a>
       </p>
 
       <div
@@ -95,7 +95,7 @@ function MainContent6() {
             </div>
             <div className="child1">
               <p>E-Mail</p>
-              <a href="mailto:zeditalmarketingagency@gmail.com">zeditalmarketingagency@gmail.com</a>
+              <a className="e-mail-responsive" href="mailto:zeditalmarketingagency@gmail.com">zeditalmarketingagency@gmail.com</a>
             </div>
           </div>
         </div>
