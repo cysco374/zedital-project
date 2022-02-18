@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" ></link>
       <a
-        href="https://wa.me/message/IQKHO7Q5FO4HO1"
+        href="https://wa.me/+6287738206473"
         class="whatsapp_float fab fa-whatsapp"
         target="_blank"
         rel="noopener noreferrer"
