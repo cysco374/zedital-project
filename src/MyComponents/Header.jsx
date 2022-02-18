@@ -2,7 +2,7 @@ import React from "react";
 import "./css/Header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaArrowLeft } from "react-icons/fa";
-import logo from './images/logo.png';
+import logo from './images/logorupadata.png';
 import $ from "jquery";
 function Header() {
   return (
