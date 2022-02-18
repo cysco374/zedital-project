@@ -10,15 +10,15 @@ function Starter() {
   return (
     <div className="Heading">
       <p data-aos="zoom-in-up" data-aos-once="true" className="mainHeading">
-        ZEDITAL MARKETING AGENCY
+        RUPADATA DIGITAL AGENCY
       </p>
       <p data-aos="zoom-out-down" data-aos-once="true" className="Quote">
-        Advertise, analyse and optimise! We do it all for you
+        Build Website, Application, UI/UX Design and Optimise! We do it all for you
       </p>
       <div className="flex-btn">
         <a data-aos="fade-down" data-aos-once="true" className="flex-btn-child" href="#services">What we do?</a>
         <p data-aos="zoom-in" data-aos-once="true" className="flex-btn-child">Or</p>
-        <a data-aos="fade-down" data-aos-once="true" className="flex-btn-child send-notification" target="_blank" rel="noreferrer" href="https://wa.me/message/IQKHO7Q5FO4HO1">Send Notification</a>
+        <a data-aos="fade-down" data-aos-once="true" className="flex-btn-child send-notification" target="_blank" rel="noreferrer" href="https://wa.me/+6287738206473">Send Notification</a>
       </div>
       <img
         className="starter-img"
