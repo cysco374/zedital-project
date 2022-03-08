@@ -34,7 +34,8 @@ function Footer() {
             <p className="footer-headings">Our Office</p>
             <iframe
               title="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.336223290313!2d78.01669510221942!3d30.284488550113302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092bd7b00eb035%3A0xa679c6982c0e6fe!2sVigilance%20OffIce%20Rd%2C%20Dehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1639296057771!5m2!1sen!2sin"
+              // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.336223290313!2d78.01669510221942!3d30.284488550113302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092bd7b00eb035%3A0xa679c6982c0e6fe!2sVigilance%20OffIce%20Rd%2C%20Dehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1639296057771!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=jl%20nasional%20III%20panggungharjo,%20sewon,%20bantul,%20yogyakarta&t=&z=19&ie=UTF8&iwloc=&output=embed"
               width="400"
               height="300"
               style={{ border: 0 }}
@@ -42,8 +43,7 @@ function Footer() {
               loading="lazy"
             ></iframe>
             <p>
-              Phase 1, Shanti Vihar, Kargi grant, Near Vigilance Office road,
-              Dehradun-248001
+              Jl. Nasional III Panggungharjo, Sewon, Bantul, Yogyakarta
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ function Footer() {
             <p className="footer-headings">Say Hello</p>
             <p>
               If you are interested in working with us or just want to say hello
-              simply drop us a line! <a className="e-mail-responsive" href="mailto:zeditalmarketingagency@gmail.com">zeditalmarketingagency@gmail.com</a>
+              simply drop us a line! <a className="e-mail-responsive" href="mailto:cysco374@gmail.com">cysco374@gmail.com</a>
             </p>
           </div>
           <div className="c2-sec-2">
@@ -109,7 +109,7 @@ function Footer() {
         </div>
       </div>
       <div className="copyright">
-        <p>Copyright© {year} Zedital Marketing Agency</p>
+        <p>Copyright© {year} Rupadata</p>
       </div>
     </div>
   );

@@ -33,7 +33,7 @@ function MainContent3() {
         <Cards
           image={computer}
           heading="Website Development"
-          text="Zedital services is one of the premier web development companies in India that provides Web Development
+          text="Rupadata services is one of the premier web development companies in India that provides Web Development
           services. We serve you with attractive and 
           eye catching web design which attracts customer to
           visit your website"

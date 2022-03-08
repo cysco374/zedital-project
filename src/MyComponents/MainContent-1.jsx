@@ -56,7 +56,7 @@ const MainContent1 = () => {
               unwelcome Instantly.
             </p>
             <p data-aos="fade-up" data-aos-once="true" className="right-para">
-              We at Zedital are driven by technology and data as much as design
+              We at Rupadata are driven by technology and data as much as design
               and content to ensure we fulfill our key mission of helping our
               clients to achieve their success. Our digital solution uses data to
               segment consumers by demographics or interests in order to find the

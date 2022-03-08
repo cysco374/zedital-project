@@ -51,7 +51,7 @@ function MainContent4() {
             Getting your website live, video shoot, photography, social channels
             live, organic and digital paid media ads promotion. We’ve gotten a
             great ROI on our leads generation campaigns through Facebook and
-            Instagram, whereby Zedital conceptualised and targeted niche
+            Instagram, whereby Rupadata conceptualised and targeted niche
             audience and conversions.
           </p>
           <a href="#contactus">Connect Now </a>
@@ -81,7 +81,7 @@ function MainContent4() {
                 </>
               }
               content={
-                "Zedital Marketing Agency re-analyzed keyword prioritization and campaign development by getting more keywords that would help conversion from people doing Google searches."
+                "Rupadata Marketing Agency re-analyzed keyword prioritization and campaign development by getting more keywords that would help conversion from people doing Google searches."
               }
             />
             <CarouselCard
@@ -97,7 +97,7 @@ function MainContent4() {
                 </>
               }
               content={
-                "Zedital has helped our company to launch our complete business online including digital strategy, digital brand launch, e-commerce web shop, social media marketing and content production."
+                "Rupadata has helped our company to launch our complete business online including digital strategy, digital brand launch, e-commerce web shop, social media marketing and content production."
               }
             />
             <CarouselCard
@@ -113,7 +113,7 @@ function MainContent4() {
                 </>
               }
               content={
-                "We had worked with several other marketing companies in the past who didn't deliver results and I'm happy to say Zedital Marketing Agency is doing that for us."
+                "We had worked with several other marketing companies in the past who didn't deliver results and I'm happy to say Rupadata Marketing Agency is doing that for us."
               }
             />
             <CarouselCard
@@ -129,7 +129,7 @@ function MainContent4() {
                 </>
               }
               content={
-                "Zedital Agency has done a wonderful job redesigning our website to take it from plain and functional to amazingly professional."
+                "Rupadata Agency has done a wonderful job redesigning our website to take it from plain and functional to amazingly professional."
               }
             />
             <CarouselCard
@@ -145,7 +145,7 @@ function MainContent4() {
                 </>
               }
               content={
-                "We would highly recommend Zedital Marketing Agency to any business that needs a hand improving their internet traffic or their business."
+                "We would highly recommend Rupadata Marketing Agency to any business that needs a hand improving their internet traffic or their business."
               }
             />
             <CarouselCard
@@ -177,7 +177,7 @@ function MainContent4() {
                 </>
               }
               content={
-                "Zedital is one stop shop for all things digital. We are growing and expanding to Agra, Delhi NCR and Bangalore as well. Thanks to Zedital Marketing Agency."
+                "Rupadata is one stop shop for all things digital. We are growing and expanding to Agra, Delhi NCR and Bangalore as well. Thanks to Rupadata Marketing Agency."
               }
             />
             <CarouselCard
@@ -193,7 +193,7 @@ function MainContent4() {
                 </>
               }
               content={
-                "I highly recommend Zedital for all things creative, design, UI/UX, content, technical e-commerce set-up and digital performance marketing."
+                "I highly recommend Rupadata for all things creative, design, UI/UX, content, technical e-commerce set-up and digital performance marketing."
               }
             />
           </Carousel>

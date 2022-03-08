@@ -23,7 +23,7 @@ function MainContent5() {
       </div>
       <p  className="para5-1">
         <p data-aos="fade-up" data-aos-once="true">
-          Zedital operates on the below principles to enable our client's
+          Rupadata operates on the below principles to enable our client's
           Digital growth.
         </p>
         <h1 data-aos="fade-up" data-aos-once="true">
@@ -31,7 +31,7 @@ function MainContent5() {
           Digital Growth Mindset
         </h1>
         <p data-aos="fade-up" data-aos-once="true">
-          For startups and growing businesses, our expert team at Zedital will
+          For startups and growing businesses, our expert team at Rupadata will
           work with you every step of the way in your digital business growth
           journey.
         </p>
@@ -41,7 +41,7 @@ function MainContent5() {
           Dedicated Team
         </h1>
         <p data-aos="fade-up" data-aos-once="true">
-          Our digital consulting team at Zedital will work with you to kickstart
+          Our digital consulting team at Rupadata will work with you to kickstart
           digital campaigns across the digital ecosystem to maximise your
           marketing budget and achieve positive business outcomes.
         </p>
@@ -65,7 +65,7 @@ function MainContent5() {
         </div>
         <div className="flex-child-element second-item">
           <div data-aos="flip-left" data-aos-once="true">
-            <h1>Why Choose Zedital Marketing Agency?</h1>
+            <h1>Why Choose Rupadata?</h1>
             <p className="para5-2">
               We have highly skilled team with excellent technical
               knowledge and experience in using the latest software standards.

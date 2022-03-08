@@ -48,7 +48,7 @@ function MainContent6() {
       <p data-aos="fade-up" data-aos-once="true" className="para6-1">
         Fill out the form below and one of our advisor's will get in touch
         promptly, alternatively you can email us at{" "}
-        <a className="e-mail-responsive" href="mailto:zeditalmarketingagency@gmail.com">zeditalmarketingagency@gmail.com</a>
+        <a className="e-mail-responsive" href="mailto:cysco374@gmail.com">Rupa Data</a>
       </p>
 
       <div
@@ -70,8 +70,7 @@ function MainContent6() {
             <div className="child1">
               <p>Address</p>
               <p>
-                Phase 1, Shanti Vihar, Kargi grant, Near Vigilance Office road,
-                Dehradun-248001
+              Jl. Nasional III Panggungharjo, Sewon, Bantul, Yogyakarta
               </p>
             </div>
           </div>
@@ -84,7 +83,7 @@ function MainContent6() {
             </div>
             <div className="child1">
               <p>Mobile number</p>
-              <a href="tel:+918527419334">+91 8527419334</a>
+              <a href="wa.me/6287738206473">+62 87738206473</a>
             </div>
           </div>
           <div className="parent6">
@@ -95,7 +94,7 @@ function MainContent6() {
             </div>
             <div className="child1">
               <p>E-Mail</p>
-              <a className="e-mail-responsive" href="mailto:zeditalmarketingagency@gmail.com">zeditalmarketingagency@gmail.com</a>
+              <a className="e-mail-responsive" href="mailto:cysco374@gmail.com">cysco374@gmail.com</a>
             </div>
           </div>
         </div>

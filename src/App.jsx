@@ -26,9 +26,9 @@ function App() {
       <Header />
       <Starter />
       <MainContent1 />
-      <MainContent2 />
+      {/* <MainContent2 /> */}
       <MainContent3 />
-      <MainContent4 />
+      {/* <MainContent4 /> */}
       <MainContent5 />
       <MainContent6 />
       <Footer />
