@@ -83,7 +83,7 @@ function MainContent6() {
             </div>
             <div className="child1">
               <p>Mobile number</p>
-              <a style={{ color: "grey", }} href="wa.me/6287738206473">+62 87738206473</a>
+              <a style={{ color: "grey", }} href="tel:+6287738206473">+62 87738206473</a>
             </div>
           </div>
           <div className="parent6">
