@@ -93,16 +93,16 @@ function Footer() {
           </div>
           <div className="c3-sec-2">
             <p className="footer-headings">Follow us on</p>
-            <a href="http://">
+            <a href="https://">
               <MdFacebook className="footer-icons" />
             </a>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://" target="_blank" rel="noreferrer">
               <BsInstagram className="footer-icons" />
             </a>
-            <a href="http://">
+            <a href="https://">
               <AiFillTwitterCircle className="footer-icons" />
             </a>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://" target="_blank" rel="noreferrer">
               <BsLinkedin className="footer-icons" />
             </a>
           </div>
