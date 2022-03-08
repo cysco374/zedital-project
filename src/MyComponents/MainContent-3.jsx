@@ -6,10 +6,10 @@ import computer from "./images/computer.jpg";
 import seo from "./images/seo.jpg";
 import smm from "./images/smm.jpg";
 import fb from "./images/fb.jpg";
-import email from "./images/email.jpg";
+// import email from "./images/email.jpg";
 import branding from "./images/branding.jpg";
-import startup from "./images/startup.jpg";
-import pr from "./images/pr.jpg";
+// import startup from "./images/startup.jpg";
+// import pr from "./images/pr.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function MainContent3() {
@@ -30,7 +30,7 @@ function MainContent3() {
           for dynamic and good designing and we're not forget to put the needs of the user experience first "
         />
         <Cards
-          image={email}
+          image={branding}
           heading="UI/UX Design"
           text="dynamic and interactive UI/UX development services using the
           latest tools and technologies. Our designs improve the end- user
