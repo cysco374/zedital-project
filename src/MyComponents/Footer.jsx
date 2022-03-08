@@ -64,9 +64,9 @@ function Footer() {
               <li>
                 <a href="#services">Services</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#testimonials">Testimonial</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#aboutus">About us</a>
               </li>
@@ -96,13 +96,13 @@ function Footer() {
             <a href="http://">
               <MdFacebook className="footer-icons" />
             </a>
-            <a href="https://instagram.com/zedital?utm_medium=copy_link" target="_blank" rel="noreferrer">
+            <a href="#" target="_blank" rel="noreferrer">
               <BsInstagram className="footer-icons" />
             </a>
             <a href="http://">
               <AiFillTwitterCircle className="footer-icons" />
             </a>
-            <a href="https://www.linkedin.com/company/zedital-marketing-agency/" target="_blank" rel="noreferrer">
+            <a href="#" target="_blank" rel="noreferrer">
               <BsLinkedin className="footer-icons" />
             </a>
           </div>

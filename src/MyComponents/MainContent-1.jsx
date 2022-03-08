@@ -6,8 +6,8 @@ import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
 const MainContent1 = () => {
-  let dailyVisits = 2.75;
-  let clients = 250;
+  let dailyVisits = 3.75;
+  let clients = 31;
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);

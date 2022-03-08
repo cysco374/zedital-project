@@ -69,7 +69,7 @@ function MainContent6() {
             </div>
             <div className="child1">
               <p>Address</p>
-              <p>
+              <p style={{ color: "grey", }}>
               Jl. Nasional III Panggungharjo, Sewon, Bantul, Yogyakarta
               </p>
             </div>
@@ -83,7 +83,7 @@ function MainContent6() {
             </div>
             <div className="child1">
               <p>Mobile number</p>
-              <a href="wa.me/6287738206473">+62 87738206473</a>
+              <a style={{ color: "grey", }} href="wa.me/6287738206473">+62 87738206473</a>
             </div>
           </div>
           <div className="parent6">
@@ -94,7 +94,7 @@ function MainContent6() {
             </div>
             <div className="child1">
               <p>E-Mail</p>
-              <a className="e-mail-responsive" href="mailto:cysco374@gmail.com">cysco374@gmail.com</a>
+              <a className="e-mail-responsive" style={{ color: "grey", }} href="mailto:cysco374@gmail.com">cysco374@gmail.com</a>
             </div>
           </div>
         </div>

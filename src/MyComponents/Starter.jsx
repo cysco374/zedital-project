@@ -1,5 +1,5 @@
 import { React, useEffect } from "react";
-import image from "./images/Header-image.jpg";
+import image from "./images/Header-Rupadata.png";
 import "./css/starter.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,7 +10,7 @@ function Starter() {
   return (
     <div className="Heading">
       <p data-aos="zoom-in-up" data-aos-once="true" className="mainHeading">
-        RUPADATA DIGITAL AGENCY
+        RUPADATA
       </p>
       <p data-aos="zoom-out-down" data-aos-once="true" className="Quote">
         Build Website, Application, UI/UX Design and Optimise! We do it all for you

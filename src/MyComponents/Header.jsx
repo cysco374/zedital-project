@@ -11,19 +11,19 @@ function Header() {
       <ul className="list1">
       <label id="arrow-left" >
         <FaArrowLeft />
-      </label>
-        <li>
-          <a href="#contactus">Contact us</a>
-        </li>
+      </label>        
         <li>
           <a href="#aboutus">About us</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#contactus">Contact us</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#services">Services</a>
         </li>
+        {/* <li>
+          <a href="#testimonials">Testimonials</a>
+        </li> */}
         <li>
           <a href="tel:+918527419334">Contact now</a>
         </li>

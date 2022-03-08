@@ -25,10 +25,16 @@ function MainContent3() {
       <div className="cards">
         <Cards
           image={phone}
-          heading="Mobile Application & UI/UX"
-          text="We offer dynamic and interactive UI/UX development services using the
-            latest tools and technologies. Our designs improve the end- user
-            experience and leave a long- lasting impact"
+          heading="Mobile Application"
+          text="We offer the latest technology stack for building mobile application
+          for dynamic and good designing and we're not forget to put the needs of the user experience first "
+        />
+        <Cards
+          image={email}
+          heading="UI/UX Design"
+          text="dynamic and interactive UI/UX development services using the
+          latest tools and technologies. Our designs improve the end- user
+          experience and leave a long- lasting impact"
         />
         <Cards
           image={computer}
@@ -60,16 +66,8 @@ function MainContent3() {
           services in affordable and best price with trendy
           advertising concepts & ideas"
         />
-        <Cards
-          image={email}
-          heading="E-mail Marketing"
-          text="The writing and editing experience of email marketing
-          can be a sticky point for many creators. Our email
-          designer helps you breeze through the editing so you
-          can focus on writing your content, the most important
-          part of email."
-        />
-        <Cards
+        
+        {/* <Cards
           image={branding}
           heading="Branding"
           text="We are Branding Agency, a studio made up of passionate people who love finding thoughtful, engaging and timeless solutions to our clients’ problems. We deliver beautiful and effective projects from brand identities, packaging, and signage to exhibition graphics, websites, and Ui/Ux design for mobile application."
@@ -86,7 +84,7 @@ function MainContent3() {
           image={pr}
           heading="PR & Verification"
           text="We produce story copyrights, content and scripts for Digital PR , communication and distribution strategy for reach and business outcomes through engaging with a network of online professional bloggers, online story tellers, online editors and publication platforms. And then you will receive a blue tick (verification) on your social profiles."
-        />
+        /> */}
       </div>
     </div>
   );

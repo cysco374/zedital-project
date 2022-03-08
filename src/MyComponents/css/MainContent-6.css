@@ -1,13 +1,14 @@
 .mainContent6 {
   text-align: center;
   margin-bottom: 60px;
+  
 }
 
 .--react--toast-alert {
   display: grid;
   grid-template-columns: 30px auto;
   align-items: center;
-  background-color: white !important;
+  background-color: black !important;
   animation: fadeInExpand 150ms;
   margin: 15px 0 0 0;
   padding: 16px 15px;
