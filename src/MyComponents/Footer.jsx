@@ -85,8 +85,7 @@ function Footer() {
 //                 name="email"
 //                 id="subscribe-input"
 //                 placeholder="Your e-mail..."
-//                 required
-//               />
+//                 required/>
 //               <br />
 //               <button className="subscribe-btn">SUBMIT</button>
 //             </form>
