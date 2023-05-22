@@ -77,34 +77,34 @@ function Footer() {
           </div>
         </div>
         <div className="flex-child-3">
-          <div className="c3-sec-1">
-            <p className="footer-headings">subscribe us</p>
-            <form onSubmit={subscribe}>
-              <input
-                type="email"
-                name="email"
-                id="subscribe-input"
-                placeholder="Your e-mail..."
-                required
-              />
-              <br />
-              <button className="subscribe-btn">SUBMIT</button>
-            </form>
-          </div>
+//           <div className="c3-sec-1">
+//             <p className="footer-headings">subscribe us</p>
+//             <form onSubmit={subscribe}>
+//               <input
+//                 type="email"
+//                 name="email"
+//                 id="subscribe-input"
+//                 placeholder="Your e-mail..."
+//                 required
+//               />
+//               <br />
+//               <button className="subscribe-btn">SUBMIT</button>
+//             </form>
+//           </div>
           <div className="c3-sec-2">
             <p className="footer-headings">Follow us on</p>
-            <a href="https://">
+            <a href="https://www.facebook.com/JasaWebsiteJogja.Rupadata">
               <MdFacebook className="footer-icons" />
             </a>
-            <a href="https://" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/jasaweb.jogja" target="_blank" rel="noreferrer">
               <BsInstagram className="footer-icons" />
             </a>
-            <a href="https://">
-              <AiFillTwitterCircle className="footer-icons" />
-            </a>
-            <a href="https://" target="_blank" rel="noreferrer">
-              <BsLinkedin className="footer-icons" />
-            </a>
+//             <a href="https://">
+//               <AiFillTwitterCircle className="footer-icons" />
+//             </a>
+//             <a href="https://" target="_blank" rel="noreferrer">
+//               <BsLinkedin className="footer-icons" />
+//             </a>
           </div>
         </div>
       </div>
