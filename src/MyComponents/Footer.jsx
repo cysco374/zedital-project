@@ -18,11 +18,11 @@ function Footer() {
   
 
 
-  const subscribe = (e) => {
-    e.preventDefault();
-    alertSuccess();
-    e.target.reset();
-  }; 
+//   const subscribe = (e) => {
+//     e.preventDefault();
+//     alertSuccess();
+//     e.target.reset();
+//   }; 
  
   let newDate = new Date();
   let year = newDate.getFullYear();
