@@ -79,17 +79,7 @@ function Footer() {
         <div className="flex-child-3">
 //           <div className="c3-sec-1">
 //             <p className="footer-headings">subscribe us</p>
-//             <form onSubmit={subscribe}>
-//               <input
-//                 type="email"
-//                 name="email"
-//                 id="subscribe-input"
-//                 placeholder="Your e-mail..."
-//                 required/>
-//               <br />
-//               <button className="subscribe-btn">SUBMIT</button>
-//             </form>
-          </div>
+//           </div>
           <div className="c3-sec-2">
             <p className="footer-headings">Follow us on</p>
             <a href="https://www.facebook.com/JasaWebsiteJogja.Rupadata">
