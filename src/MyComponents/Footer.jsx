@@ -89,7 +89,7 @@ function Footer() {
 //               <br />
 //               <button className="subscribe-btn">SUBMIT</button>
 //             </form>
-//           </div>
+          </div>
           <div className="c3-sec-2">
             <p className="footer-headings">Follow us on</p>
             <a href="https://www.facebook.com/JasaWebsiteJogja.Rupadata">
