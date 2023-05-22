@@ -5,7 +5,8 @@ import "aos/dist/aos.css";
 import { MdFacebook } from "react-icons/md";
 import { BsInstagram, BsLinkedin } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
-// import { alert } from 'react-custom-alert';
+{/* JSX comment
+ import { alert } from 'react-custom-alert'; */}
 import 'react-custom-alert/dist/index.css';
 
 function Footer() {
@@ -13,16 +14,13 @@ function Footer() {
     AOS.init({ duration: 1500 });
   }, []);
   
-//   const alertSuccess = () => alert({ message: 'Thank you for subscribing!', type: 'success' });
+{/* JSX comment  const alertSuccess = () => alert({ message: 'Thank you for subscribing!', type: 'success' }); 
 
-  
-
-
-//   const subscribe = (e) => {
-//     e.preventDefault();
-//     alertSuccess();
-//     e.target.reset();
-//   }; 
+  const subscribe = (e) => {
+    e.preventDefault();
+    alertSuccess();
+    e.target.reset();
+   }; */}
  
   let newDate = new Date();
   let year = newDate.getFullYear();
@@ -77,9 +75,10 @@ function Footer() {
           </div>
         </div>
         <div className="flex-child-3">
-//           <div className="c3-sec-1">
-//             <p className="footer-headings">subscribe us</p>
-//           </div>
+       {/* JSX comment 
+          <div className="c3-sec-1">
+            <p className="footer-headings">subscribe us</p>
+          </div> */}
           <div className="c3-sec-2">
             <p className="footer-headings">Follow us on</p>
             <a href="https://www.facebook.com/JasaWebsiteJogja.Rupadata">
@@ -88,12 +87,12 @@ function Footer() {
             <a href="https://www.instagram.com/jasaweb.jogja" target="_blank" rel="noreferrer">
               <BsInstagram className="footer-icons" />
             </a>
-//             <a href="https://">
-//               <AiFillTwitterCircle className="footer-icons" />
-//             </a>
-//             <a href="https://" target="_blank" rel="noreferrer">
-//               <BsLinkedin className="footer-icons" />
-//             </a>
+            {/* JSX comment <a href="https://">
+              <AiFillTwitterCircle className="footer-icons" />
+            </a>
+            <a href="https://" target="_blank" rel="noreferrer">
+              <BsLinkedin className="footer-icons" />
+             </a> */}
           </div>
         </div>
       </div>
