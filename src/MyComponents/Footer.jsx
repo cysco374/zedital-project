@@ -81,7 +81,7 @@ function Footer() {
           </div> */}
           <div className="c3-sec-2">
             <p className="footer-headings">Follow us on</p>
-            <a href="https://www.facebook.com/JasaWebsiteJogja.Rupadata">
+            <a href="https://www.facebook.com/JasaWebsiteJogja.Rupadata" target="_blank" rel="noreferrer">
               <MdFacebook className="footer-icons" />
             </a>
             <a href="https://www.instagram.com/jasaweb.jogja" target="_blank" rel="noreferrer">
