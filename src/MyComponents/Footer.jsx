@@ -5,9 +5,9 @@ import "aos/dist/aos.css";
 import { MdFacebook } from "react-icons/md";
 import { BsInstagram, BsLinkedin } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import 'react-custom-alert/dist/index.css';
 {/* JSX comment
  import { alert } from 'react-custom-alert'; */}
-import 'react-custom-alert/dist/index.css';
 
 function Footer() {
   useEffect(() => {
