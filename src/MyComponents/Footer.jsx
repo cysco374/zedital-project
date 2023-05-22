@@ -3,10 +3,10 @@ import "./css/Footer.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { MdFacebook } from "react-icons/md";
-import { BsInstagram, BsLinkedin } from "react-icons/bs";
-import { AiFillTwitterCircle } from "react-icons/ai";
+import { BsInstagram } from "react-icons/bs";
 import 'react-custom-alert/dist/index.css';
-{/* JSX comment
+{/*JSX comment import { AiFillTwitterCircle } from "react-icons/ai";
+
  import { alert } from 'react-custom-alert'; */}
 
 function Footer() {
@@ -14,13 +14,13 @@ function Footer() {
     AOS.init({ duration: 1500 });
   }, []);
   
-{/* JSX comment  const alertSuccess = () => alert({ message: 'Thank you for subscribing!', type: 'success' }); 
+/* JSX comment  const alertSuccess = () => alert({ message: 'Thank you for subscribing!', type: 'success' }); 
 
   const subscribe = (e) => {
     e.preventDefault();
     alertSuccess();
     e.target.reset();
-   }; */}
+   }; */
  
   let newDate = new Date();
   let year = newDate.getFullYear();
