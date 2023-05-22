@@ -13,7 +13,7 @@ function Footer() {
     AOS.init({ duration: 1500 });
   }, []);
   
-  const alertSuccess = () => alert({ message: 'Thank you for subscribing!', type: 'success' });
+//   const alertSuccess = () => alert({ message: 'Thank you for subscribing!', type: 'success' });
 
   
 
