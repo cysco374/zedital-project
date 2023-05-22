@@ -25,7 +25,7 @@ function Header() {
           <a href="#testimonials">Testimonials</a>
         </li> */}
         <li>
-          <a href="tel:+918527419334">Contact now</a>
+          <a href="https://wa.me/+6287738206473">Chat now</a>
         </li>
       </ul>
       <label id="nav-icon">
